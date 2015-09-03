@@ -1,0 +1,37 @@
+{
+  "name": "my-react",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app/index.js",
+  "author": "",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "body-parser": "latest",
+    "cookie-parser": "latest",
+    "css-loader": "latest",
+    "debug": "latest",
+    "express": "latest",
+    "express-handlebars": "latest",
+    "file-loader": "latest",
+    "less": "latest",
+    "less-loader": "latest",
+    "mongojs": "latest",
+    "morgan": "latest",
+    "react": "latest",
+    "serve-favicon": "latest",
+    "style-loader": "latest",
+    "node-sass": "latest",
+    "sass-loader": "latest",
+    "url-loader": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest",
+    "webpack": "latest",
+    "webpack-dev-server": "latest"
+  },
+  "scripts": {
+    "start": "npm run express | npm run dev",
+    "dev": "webpack-dev-server --progress --colors --port 8090",
+    "express": "nodemon ./server/bin/www"
+  }
+}
