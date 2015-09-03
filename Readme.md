@@ -1,9 +1,9 @@
-# Pred instalaci
-* vytvorit na localhost MongoDb databazi 'candidates'
+# Before install
+* create a local mongo db 'candidates'
 
-# Instalace
+# Install
 * npm install
 
 # Start
 * npm run start
-* běží na localhost:3000
+* app runs on localhost:3000
