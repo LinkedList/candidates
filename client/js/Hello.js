@@ -1,10 +1,9 @@
-var React = require('react');
+import React, {Component, PropTypes} from 'react';
 
-module.exports = React.createClass({
-	displayName: "HelloReact",
-  	render: function() {
-		var text = JSON.parse(document.getElementById('content').dataset.docs)[0].text;
-    		return React.createElement("div", null, text, null);
-  	}
-});
-
+export default class Hello extends Component {
+  render() {
+    return (
+        <h1>Hello man..</h1>
+    );
+  }
+}

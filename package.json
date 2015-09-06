@@ -25,8 +25,12 @@
     "url-loader": "latest"
   },
   "devDependencies": {
+    "babel": "^5.8.23",
+    "babel-core": "^5.8.23",
+    "babel-loader": "^5.3.2",
     "nodemon": "latest",
     "webpack": "latest",
+    "react-hot-loader": "latest",
     "webpack-dev-server": "latest"
   },
   "scripts": {

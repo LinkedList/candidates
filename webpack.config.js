@@ -10,7 +10,7 @@ module.exports = {
         loaders: [
             {test: /\.css$/, loader: "style!css?importLoaders=1"},
             {test: /\.(sass|scss)$/, loader: "style!css!sass?outputStyle=expanded"},
-            {test: /\.jsx$/, loaders: ['react-hot', "jsx?harmony"], exclude: /node_modules/},
+            {test: /\.js$/, loaders: ['react-hot', 'babel'], exclude: /node_modules/},
             {test: /\.(png|woff|woff2|eot|ttf|svg)(\?v=[0-9]\.[0-9]\.[0-9])?$/, loader: 'url?limit=100000'}
         ]
     },

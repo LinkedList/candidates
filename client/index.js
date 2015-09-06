@@ -1,11 +1,6 @@
-'use strict';
+import React from 'react';
+import Hello from './js/Hello';
 
-require("./css/bootstrap.css");
-require("./css/sb-admin.css");
-require("./css/font-awesome.css");
-require("./sass/style.scss");
+let content = document.getElementById('content');
 
-var React = require('react');
-var Hello = require('./js/Hello');
-
-React.render(React.createElement(Hello, {}), document.getElementById('content'));
+React.render(<Hello />, content);
