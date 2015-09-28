@@ -17,11 +17,12 @@
     "less-loader": "latest",
     "mongojs": "latest",
     "morgan": "latest",
+    "node-sass": "latest",
     "react": "latest",
+    "react-router": "latest",
+    "sass-loader": "latest",
     "serve-favicon": "latest",
     "style-loader": "latest",
-    "node-sass": "latest",
-    "sass-loader": "latest",
     "url-loader": "latest"
   },
   "devDependencies": {
